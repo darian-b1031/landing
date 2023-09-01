@@ -1,0 +1,133 @@
+body{font-family: Tahoma, Verdana, sans-serif;}
+
+.info{text-align: center;
+    list-style-position: inside;}
+    
+.booth{float: right;}
+
+header{background-color: #44C6E8;
+background-image: url(icon.png);
+background-position: left;
+background-repeat: no-repeat;
+background-size: contain;
+height: 75px;}
+
+nav{background-color: #EEEF56;
+height: 35px;
+text-align: center;}
+
+nav a{color: #111BBB;
+font-size: 24px;
+text-align: center;}
+
+h1{text-align: left;
+margin-left: 85px;
+font-size: 50px;
+margin-bottom: 100px;}
+
+h1 a {text-decoration: none;}
+
+h3 {font-weight: bold;
+text-align: center;}
+
+h2 {font-weight: lighter;
+text-align: center;}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+    background-size: auto;
+  }
+
+.under{
+    font-style: italic;
+}
+
+footer{background-color: #44C6E8;
+padding: 1em;
+font-size: .75em;
+text-align: center;}
+
+.new{font-weight:bold;}
+
+.london{font-weight: lighter;}
+
+.dates{list-style: none;
+font-weight: bold;}
+
+.green{color: #70AD47;
+font-weight: bold;
+list-style: none;
+margin-bottom: 1em;}
+
+.two-columns-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.two-columns-grid > * {
+    padding:0.5rem;
+}
+
+.info{text-align: center;
+    list-style-position: inside;}
+    
+.booth{float: right;}
+
+.suitcase{float: left;}
+
+.packinfo{margin-left: 300px;}
+
+table{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 1em;
+    border: 1px solid #3F2860;
+    border-collapse: collapse;
+}
+td, th{
+    padding: 5px;
+    border: 1px solid #3F2860;
+}
+
+tr:nth-child(even){
+    background-color: #DBE8E9;
+}
+
+h5{
+    font-weight: normal;
+}
+
+form{display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    width: 80%;}
+
+    input, textarea{
+        margin-bottom: .5em;
+}
+
+#contact{
+    text-align: center;
+}
+
+#contactform{
+    margin: auto;
+}
+@media (min-width: 600px){
+    form{width: 60%;
+        display: grid;
+        grid-template-columns: 12em 1fr;
+        gap: 1em;
+        }
+        input[type="submit"]{
+        grid-column: 2 / span 1;
+        width: 9em;
+       } 
+       label{
+        text-align: right;
+       }
+}
