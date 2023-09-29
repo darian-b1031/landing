@@ -1,0 +1,45 @@
+<!--Name: Darian Bolin-->
+<!--Date: September 28, 2023-->
+<!--Week 5 Lab-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Array Practice</title>
+    <link rel="stylesheet" href="array.css">
+</head>
+<body>
+    <script>
+        let colorArray = new Array();
+        colorArray[0] = "Blue";
+        colorArray[1] = "Red";
+        colorArray[2] = "Black";
+        colorArray[3] = "Purple";
+        colorArray[4] = "Pink";
+        colorArray[5] = "Green";
+
+        let counter1 = 0;
+        document.write("<h1>Elements of my Colors Array</h1>");
+        for (counter1 = 0;
+            counter1<colorArray.length;
+            counter1++)
+            document.write(colorArray[counter1] + "<br>");
+
+        let movieArray = new Array();
+        movieArray[0] = "The Grand Budapest Hotel";
+        movieArray[1] = "Paddington 2";
+        movieArray[2] = "Little Miss Sunshine";
+        movieArray[3] = "Scott Pilgrim vs The World";
+        movieArray[4] = "The Handmaiden";
+        movieArray[5] = "4 Months 3 Weeks and 2 Days";
+
+        let counter2 = 0;
+        document.write("<h1>All Time Favorite Movies Array</h1>");
+        for (counter2 = 0;
+        counter2<movieArray.length;
+        counter2++)
+        document.write(movieArray[counter2] + "<br>");
+
+    </script>
+</body>
+</html>
